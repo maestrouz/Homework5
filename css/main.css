@@ -1,0 +1,671 @@
+.header {
+  width: 1440px;
+  height: 1861px;
+  background: #2b2a2a;
+  margin: 0 auto;
+}
+.header .header-navigation {
+  display: flex;
+  width: 100%;
+  height: 5%;
+  border: 1px solid green;
+}
+.header .header-navigation .header-nav-logo {
+  width: 20%;
+  height: 100%;
+  border: 1px solid #fff;
+}
+.header .header-navigation .header-nav-logo img {
+  margin-top: 47px;
+  margin-left: 140px;
+}
+.header .header-navigation .header-nav-list {
+  display: flex;
+  width: 75%;
+  height: 100%;
+  border: 1px solid #fff;
+}
+.header .header-navigation .header-nav-list ul {
+  margin-top: 56px;
+  list-style: none;
+  display: flex;
+  column-gap: 40px;
+}
+.header .header-navigation .header-nav-list ul li {
+  color: #f1f1f1;
+  font-family: "Gilyor", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  letter-spacing: -0.14px;
+}
+.header .header-navigation .header-nav-list .nav-btn {
+  margin-top: 40px;
+  margin-left: 400px;
+  width: 122px;
+  height: 54px;
+  padding: 15px 35px;
+  border-radius: 65px;
+  background: #f1f1f1;
+  color: #151515;
+  font-family: "Gilyor", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.header .header-hero {
+  width: 100%;
+  height: 95%;
+  border: 1px solid red;
+}
+
+.section-1 {
+  width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+}
+.section-1 .section-3-bg {
+  width: 1440px;
+  height: 600px;
+  background-image: url(../images/section-1-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.section-1 .section-3-bg img {
+  margin-top: 120px;
+  margin-left: 140px;
+}
+.section-1 .section-3-bg h2 {
+  margin-top: 148px;
+  margin-left: 140px;
+  color: #f1f1f1;
+  font-family: "Gilyor", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+}
+.section-1 .section-3-bg p {
+  margin-left: 140px;
+  color: #f1f1f1;
+  font-family: "Gilyor", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 150%;
+  letter-spacing: -0.14px;
+}
+
+.section-2 {
+  display: flex;
+  width: 1440px;
+  height: 2402px;
+  background: #222;
+  margin: 0 auto;
+}
+.section-2 .section-2-top h2 {
+  margin-top: 120px;
+  margin-left: 140px;
+  color: #ff4c0d;
+  font-family: "Gilyor", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+}
+.section-2 .section-2-cards {
+  display: flex;
+}
+.section-2 .section-2-cards .section-2-card {
+  margin-top: 40px;
+  margin-left: 140px;
+  width: 560px;
+  height: 550px;
+  background-image: url(../images/bayk.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 15px;
+  border: 1px solid;
+}
+.section-2 .section-2-cards .section-2-card .section-2-card-info {
+  margin-left: 55px;
+  margin-top: 400px;
+  width: 440px;
+  height: 102px;
+}
+.section-2 .section-2-cards .section-2-card .section-2-card-info h3 {
+  color: #f1f1f1;
+  font-family: "Gilyor", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.section-2 .section-2-cards .section-2-card .section-2-card-info p {
+  color: #f1f1f1;
+  font-family: "Gilyor", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.14px;
+}
+.section-2 .section-2-cards .section-2-card-2 {
+  margin-top: 40px;
+  margin-left: 80px;
+  width: 560px;
+  height: 550px;
+  background-image: url(../images/section-2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 15px;
+  border: 1px solid;
+}
+.section-2 .section-2-cards .section-2-card-2 .section-2-card-info {
+  margin-left: 55px;
+  margin-top: 400px;
+  width: 440px;
+  height: 102px;
+}
+.section-2 .section-2-cards .section-2-card-2 .section-2-card-info h3 {
+  color: #f1f1f1;
+  font-family: "Gilyor", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.section-2 .section-2-cards .section-2-card-2 .section-2-card-info p {
+  color: #f1f1f1;
+  font-family: "Gilyor", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.14px;
+}
+.section-2 h2 {
+  margin-top: 120px;
+  margin-left: 140px;
+  color: #ff4c0d;
+  font-family: "Gilyor", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+}
+.section-2 .section-2-info {
+  display: flex;
+  margin-left: 140px;
+  width: 90%;
+  height: 210px;
+  column-gap: 60px;
+}
+.section-2 .section-2-info .section-2-info1 {
+  width: 260px;
+  height: 165px;
+}
+.section-2 .section-2-info .section-2-info1 h3 {
+  margin-top: -1px;
+  color: #f1f1f1;
+  font-family: "Gilyor", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.section-2 .section-2-info .section-2-info1 p {
+  margin-top: -2px;
+  color: #f1f1f1;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.14px;
+}
+.section-2 .section-2-info .section-2-info2 {
+  width: 260px;
+  height: 207px;
+}
+.section-2 .section-2-info .section-2-info2 h3 {
+  margin-top: -1px;
+  color: #a1a1a1;
+  font-family: "Gilyor", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.section-2 .section-2-info .section-2-info2 p {
+  margin-top: -2px;
+  color: #a1a1a1;
+  font-family: "Gilyor", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.14px;
+}
+.section-2 .section-2-main {
+  display: flex;
+  margin-left: 140px;
+  margin-top: 40px;
+}
+.section-2 .section-2-main .section-2-img-2 {
+  margin-left: 50px;
+  width: 360px;
+  height: 300px;
+}
+.section-2 .section-2-bottom {
+  margin-top: 90px;
+  margin-left: 140px;
+  display: flex;
+  width: 90%;
+  height: 600px;
+}
+.section-2 .section-2-bottom .section-2-bottom-left {
+  margin-top: 60px;
+  width: 50%;
+  height: 80%;
+}
+.section-2 .section-2-bottom .section-2-bottom-left h3 {
+  color: #ff4c0d;
+  font-family: "Gilyor", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+}
+.section-2 .section-2-bottom .section-2-bottom-left p {
+  width: 358px;
+  color: #f1f1f1;
+  font-family: "Gilyor", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.14px;
+}
+.section-2 .section-2-bottom .section-2-bottom-left .app-store {
+  margin-top: 50px;
+  display: flex;
+  column-gap: 20px;
+}
+.section-2 .section-2-bottom .section-2-bottom-right {
+  width: 50%;
+  height: 100%;
+}
+.section-2 .section-2-bottom .section-2-bottom-right .section-2-bottom-right-bg {
+  position: relative;
+  margin-top: 25px;
+  margin-left: 30px;
+  width: 400px;
+  height: 800px;
+  background-image: url(../images/iphone.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.section-2 .section-2-bottom .section-2-bottom-right .section-2-bottom-right-bg img {
+  position: absolute;
+  top: -335px;
+  right: -256px;
+}
+
+.section-3 {
+  width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+}
+.section-3 .section-3-bg {
+  position: relative;
+  width: 1440px;
+  height: 600px;
+  background-image: url(../images/section-3-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.section-3 .section-3-bg .section-3-box {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  top: 120px;
+  left: 140px;
+}
+.section-3 .section-3-bg .section-3-box h2 {
+  margin-top: 84px;
+  color: #ff4c0d;
+  font-family: "Gilyor", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+}
+.section-3 .section-3-bg .section-3-box p {
+  width: 460px;
+  color: #151515;
+  font-family: "Gilyor", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.14px;
+}
+.section-3 .section-3-bg .section-3-box .section-3-circle {
+  position: absolute;
+  top: 140px;
+  left: 1160px;
+}
+
+.section-4 {
+  display: flex;
+  width: 1440px;
+  height: 1842px;
+  background: #222;
+  margin: 0 auto;
+}
+.section-4 h2 {
+  margin-top: 120px;
+  margin-left: 140px;
+  color: #ff4c0d;
+  font-family: "Gilyor", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+}
+.section-4 .section-4-cards {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  height: 394px;
+}
+.section-4 .section-4-cards .section-card {
+  display: flex;
+  margin-left: 140px;
+  width: 460px;
+  height: 294px;
+  border-radius: 15px;
+  background: #151515;
+}
+.section-4 .section-4-cards .section-card .section-box {
+  margin-top: 15px;
+  margin-left: 25px;
+}
+.section-4 .section-4-cards .section-card .section-box h4 {
+  color: #f1f1f1;
+  font-family: "Gilyor", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+.section-4 .section-4-cards .section-card .section-box p {
+  margin-top: 10px;
+  color: #f1f1f1;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.14px;
+}
+.section-4 .section-4-cards .section-4-btns {
+  display: flex;
+  width: 100%;
+  height: 54px;
+}
+.section-4 .section-4-cards .section-4-btns .section-4-btn {
+  margin-left: 140px;
+  width: 189px;
+  height: 54px;
+  padding: 15px 35px;
+  border-radius: 65px;
+  background: #f1f1f1;
+  border: none;
+  color: #151515;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.section-4 .section-4-cards .section-4-btns img {
+  margin-left: 700px;
+}
+.section-4 .section-4-info {
+  display: flex;
+  width: 100%;
+  height: 660px;
+}
+.section-4 .section-4-info .section-4-info-left {
+  width: 40%;
+  height: 100%;
+}
+.section-4 .section-4-info .section-4-info-left h2 {
+  color: #ff4c0d;
+  font-family: "Gilyor", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+}
+.section-4 .section-4-info .section-4-info-left p {
+  margin-left: 140px;
+  width: 360px;
+  color: #f1f1f1;
+  font-family: "Gilyor", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.14px;
+}
+.section-4 .section-4-info .section-4-info-left .section-4-info-btn {
+  margin-top: 50px;
+  margin-left: 140px;
+  width: 183px;
+  height: 54px;
+  border-radius: 65px;
+  background: #f1f1f1;
+  color: #151515;
+  font-family: "Gilyor", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.section-4 .section-4-info .section-4-info-right {
+  margin-left: 70px;
+  width: 50%;
+  height: 100%;
+}
+.section-4 .section-4-info .section-4-info-right .section-4-right-info {
+  margin-top: 120px;
+  width: 660px;
+  height: 474px;
+  row-gap: 80px;
+}
+.section-4 .section-4-info .section-4-info-right .section-4-right-info .section-main-info h3 {
+  color: #f1f1f1;
+  font-family: "Gilyor", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.section-4 .section-4-info .section-4-info-right .section-4-right-info .section-main-info p {
+  color: #f1f1f1;
+  font-family: "Gilyor", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.14px;
+}
+.section-4 .section-4-bottom {
+  position: relative;
+  width: 100%;
+  height: 580px;
+  border: 1px solid #222;
+}
+.section-4 .section-4-bottom .section-4-bg {
+  margin-top: -80px;
+  width: 1440px;
+  height: 1466px;
+  background-image: url(../images/Path1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.section-4 .section-4-bottom .section-4-bg .section-4-card {
+  display: flex;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  width: 1160px;
+  height: 450px;
+  background: #151515;
+  border-radius: 15px;
+}
+.section-4 .section-4-bottom .section-4-bg .section-4-card .section-4-card-left {
+  width: 50%;
+  height: 100%;
+}
+.section-4 .section-4-bottom .section-4-bg .section-4-card .section-4-card-left h3 {
+  margin-left: 50px;
+  color: #f1f1f1;
+  font-family: "Gilyor", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+}
+.section-4 .section-4-bottom .section-4-bg .section-4-card .section-4-card-left h3 span {
+  color: #ff4c0d;
+  font-family: "Gilyor", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.section-4 .section-4-bottom .section-4-bg .section-4-card .section-4-card-left .section-4-btns {
+  margin-left: 50px;
+  display: flex;
+}
+.section-4 .section-4-bottom .section-4-bg .section-4-card .section-4-card-left .section-4-btns .sec-4-btn-1 {
+  width: 118px;
+  height: 54px;
+  border-radius: 65px;
+  background: #f1f1f1;
+  color: #151515;
+  font-family: "Gilyor", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.section-4 .section-4-bottom .section-4-bg .section-4-card .section-4-card-left .section-4-btns .sec-4-btn-2 {
+  width: 118px;
+  height: 54px;
+  border-radius: 65px;
+  background: none;
+  border: 3px solid #f1f1f1;
+  color: #f1f1f1;
+  font-family: "Gilyor", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.section-4 .section-4-bottom .section-4-bg .section-4-card .section-4-card-left .sec-btn {
+  margin-top: 90px;
+  margin-left: 50px;
+  width: 122px;
+  height: 54px;
+  border-radius: 65px;
+  background: #ff4c0d;
+  color: #fff;
+  font-family: "Gilyor", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  border: none;
+}
+.section-4 .section-4-bottom .section-4-bg .section-4-card .section-4-card-right {
+  width: 50%;
+  height: 100%;
+}
+.section-4 .section-4-bottom .section-4-bg .section-4-card .section-4-card-right .section-4-card-bg {
+  margin-top: -80px;
+  margin-left: -175px;
+  width: 756px;
+  height: 680px;
+  background-image: url(../images/minibike.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.section-4 .section-4-bottom .section-4-bg .section-4-card .section-4-card-right .section-4-card-bg .section-4-card-bg-info {
+  position: absolute;
+  top: 30px;
+  left: 850px;
+  width: 200px;
+  height: 256px;
+}
+.section-4 .section-4-bottom .section-4-bg .section-4-card .section-4-card-right .section-4-card-bg .section-4-card-bg-info h3 {
+  color: #fff;
+  font-family: "Gilyor", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.section-4 .section-4-bottom .section-4-bg .section-4-card .section-4-card-right .section-4-card-bg .section-4-card-bg-info p {
+  color: #fff;
+  /* Desktop/body */
+  font-family: "Gilyor", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.14px;
+}
+
+.footer {
+  display: flex;
+  width: 1440px;
+  height: 172px;
+  background: #222;
+  margin: 0 auto;
+}
+.footer .footer-main {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-left: 140px;
+}
+.footer .footer-main p {
+  color: #f1f1f1;
+  font-family: "Gilyor", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.14px;
+}
+.footer .footer-main h5 {
+  margin-left: 650px;
+  color: #f1f1f1;
+  text-align: right;
+  font-family: "Gilyor", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.14px;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,40 @@
+.section-1 {
+  width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+
+  .section-3-bg {
+    width: 1440px;
+    height: 600px;
+    background-image: url(../images/section-1-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    img {
+      margin-top: 120px;
+      margin-left: 140px;
+    }
+
+    h2 {
+      margin-top: 148px;
+      margin-left: 140px;
+      color: #f1f1f1;
+      font-family: "Gilyor", sans-serif;
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 110%;
+    }
+
+    p {
+        margin-left: 140px;
+      color:#f1f1f1;
+      font-family: "Gilyor", sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 150%;
+      letter-spacing: -0.14px;
+    }
+  }
+}
